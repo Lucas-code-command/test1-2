@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+header {
+    padding: 10px;
+    background-color: salmon;
+}
+
+nav {
+    background-color: palegreen;
+    padding: 10px;
+    opacity: .5;
+    display: flex;
+}
+
+.menu {
+    margin: 10px;
+}
+
+.content {
+    background-color: blue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    height: 600px;
+
+}
+
+.search {
+    float: right;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: green;
+    width: 50%;
+    height: 600px;
+}
+
+.footer {
+    padding: 20px;
+    background-color: violet;
+    height: 10px;
+    clear: both;
+}
